@@ -36,6 +36,7 @@ chokidar.watch(srcFolder).on('change', async (event, path) => {
         logger.info("file zip ready")
     })
     .catch((err)=>{
+        clearInterval(id)
         logger.error("an error appened : ", err)
     })
 });
