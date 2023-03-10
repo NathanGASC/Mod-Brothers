@@ -22,7 +22,7 @@ if (flags.src) {
 logger.info("source : ",srcFolder)
 logger.info("output : ",outputZip)
 
-chokidar.watch(srcFolder).on('change', async (event, path) => {
+chokidar.watch(srcFolder).on('all', async (event, path) => {
     console.clear();
     logger.info("file saved : ",event)
 
