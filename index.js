@@ -24,7 +24,7 @@ logger.info("output : ",outputZip)
 
 chokidar.watch(srcFolder).on('all', async (event, path) => {
     console.clear();
-    logger.info("file saved : ",event)
+    logger.info(`event ${event} on file ${path}`)
 
     const id = setInterval(()=>{
         logger.info("...")
