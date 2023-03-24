@@ -23,7 +23,7 @@ logger.info("source : ",srcFolder)
 logger.info("output : ",outputZip)
 
 chokidar.watch(srcFolder).on('all', async (event, path) => {
-    console.clear();
+    //console.clear();
     logger.info(`event ${event} on file ${path}`)
 
     const id = setInterval(()=>{
