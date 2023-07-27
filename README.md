@@ -1,5 +1,5 @@
 # Deprecated
-This project at the date of today (27/07/2023) still work but will be a duplicate of BBbuilder (https://github.com/TaroEld/BBbuilder). That's why I stop this project and will implement ES6 features in BBbuilder.
+This project at the date of today (27/07/2023) still work but will be a duplicate of BBbuilder (https://github.com/TaroEld/BBbuilder).
 
 # Mod-Brothers
 Mod-Brothers is a tool which help you modding faster Battle Brothers game by watching your mod folder and build a zip of it each time you create, update, save, delete a file in your mod folder.
